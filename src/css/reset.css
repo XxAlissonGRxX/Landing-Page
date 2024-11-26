@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+}
+
+/* O asterisco serve para estilizar 
+todos os elementos HTML da página. 
+
+Vamos zerar a margin e o padding,
+ajustar o box-sizing para facilitar o layout 
+e deixar a cor do texto padrão preta.
+
+OBS: O ajuste do box-sizing: border-box; é feito para facilitar o cálculo das dimensões dos elementos no layout.
+
+Por padrão, o box-sizing dos elementos é definido como content-box. Nesse modo, as dimensões especificadas (width e height) incluem apenas o conteúdo do elemento, excluindo padding e bordas. Isso pode dificultar o ajuste de layouts, pois você precisa calcular manualmente o espaço extra.
+
+Quando usamos box-sizing: border-box;, as dimensões especificadas passam a incluir o padding e as bordas do elemento. Isso significa que o tamanho total do elemento não aumenta com esses valores, simplificando o trabalho com tamanhos fixos ou relativos.
+*/
